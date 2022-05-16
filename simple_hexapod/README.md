@@ -1,5 +1,24 @@
-Robotics initiation class materials by Passault Grégoire, Olivier Ly and Remi Fabre is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
+```Robotics initiation class materials by Passault Grégoire, Olivier Ly and Remi Fabre is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
 
+# Modification of the project done by Students at Enseirb-Matmeca
+Widad Zizouan, Ahmed Manhab Dahmani, Nicolas Do, Théo Michel
+
+
+# In constants set :
+
+# ROBOT_TYPE = PHANTOMX_RL
+if you want to use the real Roboid hexa spyder
+execute python main_real.py
+
+# ROBOT_TYPE = PHANTOMX_SIMULATION
+if you want to use the simulation of the Roboid hexa spyder
+execute python main.py
+ 40 hz
+
+By default the robot runs at (Pygame must be slowing the loop down)
+It can be increased at 50 hz Safely(We have encountered a single crash at the shutting down of the robot), we have not tested higher values
+#######################################################################
+# Readme from the original project
 # Simulation
 A simple simulation based on PyBullet.
 
@@ -57,4 +76,5 @@ computeIK(150, -50, -90) -->  [-18.434948822922014, -13.452636970582287, 9.66931
 
 ```bash
 python3 main.py
+```
 ```
